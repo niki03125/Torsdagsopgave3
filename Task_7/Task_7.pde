@@ -50,9 +50,6 @@ void printListAverage(ArrayList<Integer> intList) {
   int sum=0;
   for (int i=0; i<intList.size(); i++) {
     sum += intList.get(i);
-    // for(int i : Intlist){
-    //sum += Intlist(i);
-
   }
       println((float)sum/intList.size());
 }
