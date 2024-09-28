@@ -96,34 +96,34 @@
 //}
 
 
-////Debugging 7
+//Debugging 7
 
-//boolean jobsDone = true;
+boolean jobsDone = true;
 
-//void setup()
-//{
-//    int myArray[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-//    println(getSumOfElementsInArray(myArray));
+void setup()
+{
+    int myArray[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    println(getSumOfElementsInArray(myArray));
     
-//    if (isJobDone())
-//    {
-//        println("Job's done!"); 
-//    }
-//}
-//int sum;
-//int getSumOfElementsInArray(int[] arr) 
-//{
-//    for (int i = 0; i < arr.length; i++)
-//    {
-//      sum += arr[i];
-//    }
-//    return sum;
-//}
+    if (isJobDone())
+    {
+        println("Job's done!"); 
+    }
+}
+int sum;
+int getSumOfElementsInArray(int[] arr) 
+{
+    for (int i = 0; i < arr.length; i++)
+    {
+      sum += arr[i];
+    }
+    return sum;
+}
 
-//boolean isJobDone()
-//{
-//    return jobsDone;    
-//}
+boolean isJobDone()
+{
+    return jobsDone;    
+}
 
 
 
@@ -157,31 +157,31 @@
 //}
 
 
-//Debugging 9
-boolean jobsDone = true;
+////Debugging 9
+//boolean jobsDone = true;
 
-void setup()
-{
-    int myArray[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1};
-    print(getSumOfAllElementsInArray(myArray));
+//void setup()
+//{
+//    int myArray[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1};
+//    print(getSumOfAllElementsInArray(myArray));
     
-    if (isJobDone())
-    {
-        println("Job's done!"); 
-    }
-}
+//    if (isJobDone())
+//    {
+//        println("Job's done!"); 
+//    }
+//}
 
-boolean isJobDone()
-{
-    return jobsDone;    
-}
+//boolean isJobDone()
+//{
+//    return jobsDone;    
+//}
 
-int getSumOfAllElementsInArray(int[] arr) 
-{
-    int sum = 0; 
-    for (int i = 0; i < arr.length; i++)
-    {
-        sum += arr[i];
-    }
-    return sum;
-}
+//int getSumOfAllElementsInArray(int[] arr) 
+//{
+//    int sum = 0; 
+//    for (int i = 0; i < arr.length; i++)
+//    {
+//        sum += arr[i];
+//    }
+//    return sum;
+//}
